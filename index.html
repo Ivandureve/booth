@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
@@ -102,18 +103,29 @@
     <section id="download" class="download bg-primary text-center">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-12">
                     <h2 class="section-heading">Book your photobooth with us!</h2>
-                    <p>We are based in Oxfordshire and ready to please you!
-                                            <div id="btncall" class="col-md-4 col-md-offset-4 col-sm6-6 col-sm-offset-3 ">
-                                                <form class="inline" role="form">
-                                                    <label class="sr-only" for="exampleInputEmail2">Phone number</label>
-                                                    <input type="phone" class="form-control transparent" placeholder="Landline, mobile? We don't mind!">
-                                                  <button class="btn btn-outline btn-xl page-scroll">Request a call</button>
-                                                </form>
-                                            </div>
-                    </p>
+                    <p>We are based in Oxfordshire and ready to please you!</p>
+                    <form class="form-inline">
+                      <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="exampleInputName2" placeholder="Filipe Pereira">
+                      </div>
+                      <div class="form-group">
+                        <label for="number">Number</label>
+                        <input type="text" class="form-control" id="exampleInputName2" placeholder="+447554938537">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="filipe@example.com">
+                      </div>
+                      <button type="submit" class="btn btn-default">Request callback</button>
+                    </form>
                 </div>
+
+
+
+
             </div>
         </div>
     </section>
@@ -172,22 +184,12 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="feature-item">
-                                    <i class="icon-lock-open text-primary"></i>
-                                    <h3>Open memories</h3>
-                                    <p class="text-muted">Your friends/customers will have memories left at home!</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="feature-item">
-                                    <i class="icon-usd text-primary"></i>
+                                    <i class="glyphicon glyphicon-gbp text-primary"></i>
                                     <h3>Best prices</h3>
                                     <p class="text-muted">Price starting at only £399</p>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
