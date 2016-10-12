@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 .heading-font {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Reenie Beanie', cursive;
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -43,7 +43,11 @@ hr {
 hr.light {
   border-color: white;
 }
-h1,
+h1{
+  font-family: 'Reenie Beanie', cursive;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
 h2,
 h3,
 h4,
