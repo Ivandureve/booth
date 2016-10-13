@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Rent, photo, booth, photobooth, event, weddings, rent, rental, hire">
+    <meta name="description" content="Rent, photo, booth, photobooth, event, weddings, rent, rental, hire, Oxford, Oxfordshire">
     <meta name="author" content="Ivan Rimbaud">
     <link rel="icon" type="image/ico" href="img/favicon.ico">
     <title>Photobooth - Oxford</title>
@@ -27,6 +27,7 @@
 
     <!-- Theme CSS -->
     <link href="css/new-age.min.css" rel="stylesheet">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -155,16 +156,16 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="feature-item">
-                                    <i class="icon-screen-smartphone text-primary"></i>
-                                    <h3>Share</h3>
-                                    <p class="text-muted">with us, you can share the fun on the social media!</p>
+                                    <i class="glyphicon glyphicon-gbp text-primary"></i>
+                                    <h3>Best prices</h3>
+                                    <p class="text-muted">Price starting at only £299.<br>Check out our <a href="#plans">pricing page!</a></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="feature-item">
-                                    <i class="icon-camera text-primary"></i>
-                                    <h3>Flexible</h3>
-                                    <p class="text-muted">We can add  image, video, animation, or anything else in the screen!</p>
+                                    <i class="icon-screen-smartphone text-primary"></i>
+                                    <h3>Share</h3>
+                                    <p class="text-muted">With us you can share all your fun straight to social media!</p>
                                 </div>
                             </div>
                         </div>
@@ -178,9 +179,9 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="feature-item">
-                                    <i class="glyphicon glyphicon-gbp text-primary"></i>
-                                    <h3>Best prices</h3>
-                                    <p class="text-muted">Price starting at only £299</p>
+                                    <i class="icon-camera text-primary"></i>
+                                    <h3>All events</h3>
+                                    <p class="text-muted">We like weddings, corporate events, Christmas parties. You name it, we do it!</p>
                                 </div>
                             </div>
                         </div>
@@ -195,8 +196,8 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="section-heading">
-                            <h2 style="color:white">We are transparent on our prices!</h2>
-                            <p class="text-muted" style="color:white">And we got lot's of options!</p>
+                            <h2 style="color:white">Our prices are very clear</h2>
+                            <p class="text-muted" style="color:white">And we even have a few different options!</p>
                             <hr>
                         </div>
                     </div>
@@ -222,7 +223,7 @@
                             <li class="list-group-item"><i class="fa fa-check"></i> USB with Photo’s & Video</li>
                         </ul>
                         <div class="panel-footer">
-                            <a class="btn btn-lg btn-block btn-danger" href="#download">BUY NOW!</a>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">BUY NOW!</button>
                         </div>
                     </div>
                 </div>
@@ -246,7 +247,7 @@
                             <li class="list-group-item"><i class="fa fa-check"></i> USB with Photo’s & Video</li>
                         </ul>
                         <div class="panel-footer">
-                            <a class="btn btn-lg btn-block btn-warning" href="#download">BUY NOW!</a>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">BUY NOW!</button>
                         </div>
                     </div>
                 </div>
@@ -270,12 +271,42 @@
                             <li class="list-group-item"><i class="fa fa-check"></i> USB with Photo’s & Video</li>
                         </ul>
                         <div class="panel-footer">
-                            <a class="btn btn-lg btn-block btn-success" href="#download">BUY NOW!</a>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">BUY NOW!</button>
                         </div>
                     </div>
                 </div>
                 <!-- /item -->
 
+                <!-- Modal -->
+                    <div id="myModal" class="modal fade" role="dialog">
+                      <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Book your photobooth!</h4>
+                          </div>
+                          <div class="modal-body">
+                                <form class="form" method="POST" action="http://formspree.io/info@ministryofphotobooth.com">
+                                  <input class="form-control" style="background-color:#FFFFF" type="text" name="name" placeholder="Full name" class="form-group">
+                                  <input class="form-control" style="background-color:#FFFFF" type="email" name="email" placeholder="Your email" class="form-group">
+                                  <input class="form-control" id="tel" style="background-color:#FFFFF" type="tel" name="usrtel" placeholder="Your number" class="form-group">
+                                  <input class="form-control" id="event" style="background-color:#FFFFF" type="text" name="text" placeholder="Event type?" class="form-group">
+                                  <input class="form-control" id="adress" style="background-color:#FFFFF" type="text" name="text" placeholder="Venue address?" class="form-group">
+                                  <input class="form-control" id="date" style="background-color:#FFFFF" type="date" name="date" placeholder="When is the event happening?" class="form-group">
+                                  <input class="form-control" id="time" style="background-color:#FFFFF" type="time" name="time" placeholder="What time is the event starting?" class="form-group">
+                                  <input class="form-control" id="number" style="background-color:#FFFFF" type="number" name="number" placeholder="Number of guest?" class="form-group">
+                                  <button class="form-control" type="submit" class="btn btn-default">Book it with us!</button>
+                                </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
             </div>
         </div>
     </section>
@@ -318,7 +349,7 @@
             <p>&copy; 2016 The Ministry of Photobooth. All Rights Reserved. <a href="info@ministryofphotobooth.com">info@ministryofphotobooth.com</a></p>
             <ul class="list-inline">
                 <li>
-                    <a href="#"></a>
+                    <p>Webdesign by <a href="https://www.linkedin.com/in/rimbaud">Ivan Rimbaud</a>.</p>
                 </li>
                 <li>
                     <a href="#"></a>
