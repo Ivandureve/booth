@@ -53,6 +53,11 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+
+.mainNav{
+  margin-right: 15px;
+  margin-left: 15px;
+}
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
@@ -290,6 +295,9 @@ section.features .feature-item i {
     max-width: none;
   }
 }
+/* start of plans */
+
+/* end of plans */
 
 /* start of pricing */
 
