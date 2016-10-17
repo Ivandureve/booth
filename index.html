@@ -266,6 +266,7 @@
                         </ul>
                     </div>
                 </div>
+                <p style="color:white">As every event is unique, we are happy to customise our services to your needs! Feel free to contact us for more info!</p>
                 <!-- /item -->
                     <a type="button" style="over:color:blue;" class="btn btn-outline btn-xl page-scroll" data-toggle="modal" href="#myModal">Book Now!</a>
                 <!-- Modal -->
@@ -281,20 +282,31 @@
                           <div class="modal-body">
                                 <form class="form" method="POST" action="http://formspree.io/info@ministryofphotobooth.com">
                                   <input class="form-control" style="background-color:#FFFFF" type="text" name="name" placeholder="Full name" class="form-group">
+                                  <br>
                                   <input class="form-control" style="background-color:#FFFFF" type="email" name="email" placeholder="Your email" class="form-group">
+                                  <br>
                                   <input class="form-control" id="tel" style="background-color:#FFFFF" type="tel" name="usrtel" placeholder="Your number" class="form-group">
+                                  <br>
                                   <input class="form-control" id="event" style="background-color:#FFFFF" type="text" name="text" placeholder="Event type?" class="form-group">
+                                  <br>
                                   <input class="form-control" id="adress" style="background-color:#FFFFF" type="text" name="text" placeholder="Venue address?" class="form-group">
+                                  <br>
                                   <input class="form-control" id="datetime" style="background-color:#FFFFF" type="datetime" name="datetime" placeholder="Date and time of event?" class="form-group">
+                                  <br>
                                   <input class="form-control" id="number" style="background-color:#FFFFF" type="number" name="number" placeholder="Number of guest?" class="form-group">
-                                  <input type="radio" name="package" value="regular" checked> Regular<br>
-                                  <input type="radio" name="package" value="plus"> Plus<br>
+                                  <br>
+                                  <div id="package" align="left" padding>
+                                  <input type="radio" name="package" value="regular" checked> Regular
+                                  <br>
+                                  <input type="radio" name="package" value="plus"> Plus
+                                  <br>
                                   <input type="radio" name="package" value="premium"> Premium
-                                  <button class="form-control" type="submit" class="btn btn-outline btn-xl page-scroll">Book it with us!</button>
+                                  </div>
+                                  <br>
+                                  <input class="form-control" id="other" style="background-color:#FFFFF" type="txt" name="other" placeholder="Tell us more!" class="form-group">
+                                  <br>
+                                  <button type="submit" class="btn btn-outline btn-xl page-scroll" style="background-color:#fdc844">Book it with us!</button>
                                 </form>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn" data-dismiss="modal">Close</button>
                           </div>
                         </div>
 
